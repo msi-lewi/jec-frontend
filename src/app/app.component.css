@@ -1,0 +1,72 @@
+/* navbar */
+  #navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999; /* Supaya selalu di atas konten lain */
+    }
+
+/* whatsapp */
+  .wa-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 999;
+  }
+  .wa-float i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  .wa-float:hover {
+    text-decoration: none;
+    background-color: #1ebe5d;
+  }
+
+/* social-icons */
+  .social-icons {
+    margin: 0 10px; /* Kasih jarak horizontal 10px */
+    font-size: 20px; /* (Opsional) besarin icon kalau mau */
+    transition: transform 0.3s; /* (Opsional) animasi saat hover */
+  }
+
+  .social-icons:hover {
+    transform: scale(1.2); /* (Opsional) efek hover membesar */
+    color: #f8f9fa; /* (Opsional) ubah warna saat hover */
+  }
+
+/* service-card */
+  .service-card {
+    background: #fff;
+    transition: transform 0.3s;
+  }
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  .service-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;            /* NEW: Flex container */
+    align-items: center;      /* NEW: Vertically center */
+    justify-content: center;  /* NEW: Horizontally center */
+   }
+  .bg-purple {
+    background: #a288f1;
+  }
+  .bg-pink {
+    background: #f28d8d;
+  }
+  .bg-cyan {
+    background: #6ddccf;
+  }
+  .bg-yellow {
+    background: #f9c56c;
+  }

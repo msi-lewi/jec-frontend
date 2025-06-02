@@ -25,9 +25,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/admin-lte/dist/css/adminlte.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+              "node_modules/admin-lte/dist/js/adminlte.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -96,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "90440920-9725-4526-87dc-1917e0aaf624"
   }
 }
